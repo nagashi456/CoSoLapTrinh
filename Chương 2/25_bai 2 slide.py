@@ -1,0 +1,5 @@
+Niem=int(input('Nhap gia niem yet: '))
+Chiet=int(input('Nhap gia chiet khau: '))
+VAT=((Niem-Chiet)*0.01)
+Gia=(Niem-Chiet+VAT)
+print('Gia ban: '+str(Gia))
